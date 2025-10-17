@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/BibleApp-Hosting-Test/sw.js', { scope: '/BibleApp-Hosting-Test/' })})}
